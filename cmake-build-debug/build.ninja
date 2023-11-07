@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/CLionProjects/RobinHashMap/cmake-build-debug/
 
 build cmake_object_order_depends_target_RobinHashMap: phony || CMakeFiles/RobinHashMap.dir
 
-build CMakeFiles/RobinHashMap.dir/testing.cpp.obj: CXX_COMPILER__RobinHashMap_Debug C$:/CLionProjects/RobinHashMap/testing.cpp || cmake_object_order_depends_target_RobinHashMap
-  DEP_FILE = CMakeFiles\RobinHashMap.dir\testing.cpp.obj.d
+build CMakeFiles/RobinHashMap.dir/main.cpp.obj: CXX_COMPILER__RobinHashMap_Debug C$:/CLionProjects/RobinHashMap/main.cpp || cmake_object_order_depends_target_RobinHashMap
+  DEP_FILE = CMakeFiles\RobinHashMap.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\RobinHashMap.dir
   OBJECT_FILE_DIR = CMakeFiles\RobinHashMap.dir
@@ -63,7 +63,7 @@ build CMakeFiles/RobinHashMap.dir/testing.cpp.obj: CXX_COMPILER__RobinHashMap_De
 #############################################
 # Link the executable RobinHashMap.exe
 
-build RobinHashMap.exe: CXX_EXECUTABLE_LINKER__RobinHashMap_Debug CMakeFiles/RobinHashMap.dir/testing.cpp.obj
+build RobinHashMap.exe: CXX_EXECUTABLE_LINKER__RobinHashMap_Debug CMakeFiles/RobinHashMap.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RobinHashMap.dir

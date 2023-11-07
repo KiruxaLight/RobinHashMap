@@ -3,4 +3,4 @@ project(RobinHashMap)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(RobinHashMap testing.cpp)
+add_executable(RobinHashMap main.cpp hash_map.h testing.h)

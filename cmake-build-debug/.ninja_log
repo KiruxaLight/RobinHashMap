@@ -1,0 +1,4 @@
+# ninja log v5
+2	333	7210745621758131	build.ninja	523ef79d2ffbadcf
+1	4615	7210745668809141	CMakeFiles/RobinHashMap.dir/testing.cpp.obj	a16af61476b9481c
+4619	5426	7210745677101917	RobinHashMap.exe	c0d820bd5dfd291a
